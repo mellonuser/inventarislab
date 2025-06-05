@@ -1,0 +1,54 @@
+##############################
+#  Visual Studio / .NET     #
+##############################
+
+# Folder pengaturan IDE
+.vs/
+
+# File user/solution personal
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Hasil build
+bin/
+obj/
+out/
+[Bb]uild/
+[Ll]og/
+
+# Paket NuGet yang sudah diekstrak
+packages/
+*.nupkg
+*.snupkg
+
+# File publish / deploy
+publish/
+*.Publish.xml
+*.pubxml
+*.publishsettings
+
+# Konfigurasi VS Code
+.vscode/
+
+# Rider / ReSharper
+.idea/
+.ReSharper*/
+*_Resharper.*
+
+# File log & temp
+*.log
+*.tmp
+*.temp
+
+# File basis data lokal
+*.mdf
+*.ldf
+*.dbmdl
+*.db
+*.bak
+
+# Berkas sistem OS
+.DS_Store
+Thumbs.db
