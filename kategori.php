@@ -50,7 +50,7 @@ $kategori = $koneksi->query("
       <div class="content-section">
         <div class="section-header">
           <h3>Daftar Kategori</h3>
-          <a href="tambahKategori.php" class="btn" onclick="alert('Fungsi Tambah Kategori belum tersedia')">+ Tambah Kategori</a>
+          <a href="tambahKategori.php" class="btn">+ Tambah Kategori</a>
         </div>
 
         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">

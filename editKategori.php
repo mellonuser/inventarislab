@@ -8,7 +8,7 @@ $data = $koneksi->query("SELECT * FROM KATEGORI WHERE IDKATEGORI = $id")->fetch_
 <head>
   <meta charset="UTF-8">
   <title>Edit Kategori</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/form.css">
 </head>
 <body>
 <div class="container" style="padding: 30px;">

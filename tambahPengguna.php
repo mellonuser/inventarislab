@@ -6,7 +6,7 @@ $admin = $koneksi->query("SELECT * FROM ADMIN");
 <html>
 <head>
   <title>Tambah Pengguna</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/form.css" />
 </head>
 <body>
 <div class="container" style="padding: 30px;">

@@ -2,7 +2,7 @@
 $host     = "localhost";
 $user     = "root";
 $password = ""; // ganti jika ada password
-$database = "sistemInventarisLab";
+$database = "pemweb3";
 
 // Membuat koneksi
 $koneksi = new mysqli($host, $user, $password, $database);

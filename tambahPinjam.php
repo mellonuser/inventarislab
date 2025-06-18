@@ -9,7 +9,7 @@ $barang = $koneksi->query("SELECT * FROM BARANG WHERE IDPINJAM IS NULL");
 <head>
   <meta charset="UTF-8">
   <title>Peminjaman Baru</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/form.css" />
 </head>
 <body>
 <div class="container" style="padding: 30px;">
