@@ -64,7 +64,7 @@ $belumKembali = $koneksi->query("
             <td><?= $row['NAMABARANG'] ?></td>
             <td><?= $row['TANGGALPINJAM'] ?></td>
             <td>
-              <a href="proses-kembalikan-user.php?id=<?= $row['IDPINJAM'] ?>" class="btn" onclick="return confirm('Yakin kembalikan barang ini?')">Kembalikan</a>
+              <a href="ajukanPengembalianUser.php?id=<?= $row['IDPINJAM'] ?>" class="btn" onclick="return confirm('Yakin kembalikan barang ini?')">Kembalikan</a>
             </td>
           </tr>
           <?php endwhile; ?>
